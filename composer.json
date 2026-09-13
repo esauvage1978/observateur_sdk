@@ -14,11 +14,13 @@
     "homepage": "https://github.com/esauvage1978/observateur_sdk",
     "authors": [
         {
-            "name": "esauvage1978",
+            "name": "Emmanuel Sauvage",
+            "email": "emmanuel.sauvage@live.fr",
             "homepage": "https://github.com/esauvage1978"
         }
     ],
     "support": {
+        "email": "emmanuel.sauvage@live.fr",
         "issues": "https://github.com/esauvage1978/observateur_sdk/issues",
         "source": "https://github.com/esauvage1978/observateur_sdk",
         "docs": "https://github.com/esauvage1978/observateur_sdk"
