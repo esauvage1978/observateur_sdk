@@ -1,0 +1,42 @@
+{
+    "name": "observateur/php-sdk",
+    "description": "Client PHP fail-open pour l'API d'ingestion Observateur",
+    "type": "library",
+    "license": "proprietary",
+    "keywords": [
+        "observateur",
+        "observability",
+        "logging",
+        "monitoring",
+        "ingest",
+        "monolog"
+    ],
+    "homepage": "https://github.com/esauvage1978/observateur_sdk",
+    "authors": [
+        {
+            "name": "esauvage1978",
+            "homepage": "https://github.com/esauvage1978"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/esauvage1978/observateur_sdk/issues",
+        "source": "https://github.com/esauvage1978/observateur_sdk",
+        "docs": "https://github.com/esauvage1978/observateur_sdk"
+    },
+    "require": {
+        "php": ">=8.3"
+    },
+    "suggest": {
+        "monolog/monolog": "Pour envoyer les logs applicatifs via Observateur\\MonologHandler"
+    },
+    "autoload": {
+        "psr-4": {
+            "Observateur\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        }
+    }
+}
